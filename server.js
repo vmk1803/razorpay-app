@@ -21,7 +21,7 @@ const OrderSchema = mongoose.Schema({
 });
 const Order = mongoose.model('Order', OrderSchema);
 
-app.get('/get-razorpay-key', (req, res) => {
+app.get(' ', (req, res) => {
   res.send({ key: process.env.RAZORPAY_KEY_ID });
 });
 
